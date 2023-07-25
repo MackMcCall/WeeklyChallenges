@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace ChallengesWithTestsMark8
 {
@@ -18,32 +19,35 @@ namespace ChallengesWithTestsMark8
 
         public double Subtract(double minuend, double subtrahend)
         {
-            throw new NotImplementedException();
+            var difference = minuend - subtrahend;
+            return difference;
         }
 
         public int Add(int number1, int number2)
         {
-            throw new NotImplementedException();
+            var sum = number1 + number2;
+            return sum;
         }
 
         public int GetSmallestNumber(int number1, int number2)
         {
-            throw new NotImplementedException();
+            var smallestNum = (number1 >= number2) ? number2 : number1;
+            return smallestNum;
         }
 
         public long Multiply(long factor1, long factor2)
         {
-            throw new NotImplementedException();
+            return factor1 * factor2;
         }
 
         public string GetGreeting(string nameOfPerson)
         {
-            throw new NotImplementedException();
+            return (string.IsNullOrEmpty(nameOfPerson)) ? "Hello!" : $"Hello, {nameOfPerson}!";
         }
 
         public string GetHey()
         {
-            throw new NotImplementedException();
+            return "HEY!";
         }
     }
 }

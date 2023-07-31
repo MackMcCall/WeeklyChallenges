@@ -30,6 +30,7 @@ namespace ChallengesWithTestsMark8
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
         {
+            //refactored to use Count
             return numbers != null && numbers.Count() > 0 ? numbers.Max() + numbers.Min() : 0;
         }
 

@@ -21,6 +21,7 @@ namespace ChallengesWithTestsMark8
 
         public void ChangeBusinessNameTo_TrueCoders(Business biz)
         {
+            //Did this ahead of time
             biz.Name = "TrueCoders";
         }
 

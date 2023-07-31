@@ -30,7 +30,7 @@ namespace ChallengesWithTestsMark8
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
         {
-            return (numbers != null && numbers.Any()) ? numbers.Max() + numbers.Min() : 0;
+            return numbers != null && numbers.Count() > 0 ? numbers.Max() + numbers.Min() : 0;
         }
 
         public int GetLengthOfShortestString(string str1, string str2)

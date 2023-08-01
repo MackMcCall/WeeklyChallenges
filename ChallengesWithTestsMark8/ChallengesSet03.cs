@@ -20,6 +20,8 @@ namespace ChallengesWithTestsMark8
 
         public bool PasswordContainsUpperLowerAndNumber(string password)
         {
+            //string pattern = ("(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])");
+            //return Regex.IsMatch(password, pattern);
             return password.Any(char.IsUpper) && password.Any(char.IsLower) && password.Any(char.IsNumber);
         }
 

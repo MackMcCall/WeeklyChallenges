@@ -51,12 +51,13 @@ namespace ChallengesWithTestsMark8
                 return 0;
             }
             
+            //refactored to foreach rather than for loop
             int evensSum = 0;
-            for (int i = 0; i < numbers.Length; i++)
+            foreach (int num in numbers)
             {
-                if (numbers[i] % 2 == 0)
+                if (num % 2 == 0)
                 {
-                    evensSum += numbers[i];
+                    evensSum += num;
                 }
             }
             return evensSum;
@@ -64,7 +65,7 @@ namespace ChallengesWithTestsMark8
 
         public bool IsSumOdd(List<int> numbers)
         {
-            return (numbers != null && Math.Abs(numbers.Sum()) % 2 == 1);
+            return (numbers != null && numbers.Sum() % 2 != 0);
         }
 
         public long CountOfPositiveOddsBelowNumber(long number)

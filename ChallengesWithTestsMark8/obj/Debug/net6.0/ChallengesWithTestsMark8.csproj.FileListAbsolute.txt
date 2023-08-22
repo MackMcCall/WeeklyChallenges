@@ -3,7 +3,6 @@ C:\Users\mackm\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\
 C:\Users\mackm\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net6.0\ChallengesWithTestsMark8.runtimeconfig.json
 C:\Users\mackm\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net6.0\ChallengesWithTestsMark8.dll
 C:\Users\mackm\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net6.0\ChallengesWithTestsMark8.pdb
-C:\Users\mackm\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.csproj.AssemblyReference.cache
 C:\Users\mackm\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\mackm\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.AssemblyInfoInputs.cache
 C:\Users\mackm\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.AssemblyInfo.cs

@@ -87,6 +87,15 @@ namespace ChallengesWithTestsMark8
                 }
             }
             return nullCount > nonNull;
+            //int nullCount = 0;
+            //foreach (var item in objs)
+            //{
+            //    if (item == null)
+            //    {
+            //        nullCount++;
+            //    }
+            //}
+            //return nullCount > objs.Length / 2;
         }
 
         public double AverageEvens(int[] numbers)
